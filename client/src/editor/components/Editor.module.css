@@ -1,0 +1,26 @@
+.editor  {
+  height: 100%;
+  background-color: #fefefe;
+  padding: 1rem;
+}
+
+.editor :global([data-lexical-editor="true"]) {
+  height: 100%;
+  outline: none;
+}
+
+.editorWrapper .placeholder {
+  pointer-events: none;
+  position: absolute;
+  color: #999;
+  top: 1rem;
+  left: 1rem;
+}
+
+.editorWrapper {
+  border: 1px solid #eee;
+  width: 60rem;
+  margin: 0 auto;
+  height: 1024px;
+  position: relative;
+}
